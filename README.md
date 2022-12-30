@@ -6,6 +6,7 @@ Go Dark Sky API
 - Switch to [pirate wether API](https://pirateweather.net/)
 - Go modules
 - Add UV and Wind Guest to data point
+- Switch datapoint time's underlying type to float since pirateweather returns time as "1672390800.0"
 
 # Orginal README
 

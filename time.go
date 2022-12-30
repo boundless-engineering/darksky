@@ -19,9 +19,9 @@ func (t Time) MarshalJSON() ([]byte, error) {
 }
 
 func (t *Time) UnmarshalJSON(b []byte) (err error) {
-	var src int64
+	var src float64
 	if err = json.Unmarshal(b, &src); err == nil {
-		newTime := time.Unix(src, 0).In(time.UTC)
+		newTime := time.Unix(int64(src), 0).In(time.UTC)
 		*t = Time{newTime}
 	}
 	return err
