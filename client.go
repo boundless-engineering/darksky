@@ -6,11 +6,11 @@
 package darksky
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"net/http"
 	"time"
-	"context"
 
 	"github.com/pkg/errors"
 )
@@ -21,7 +21,7 @@ type Client struct {
 	APIKey  string
 }
 
-const DEFAULT_BASEURL = "https://api.darksky.net/forecast"
+const DEFAULT_BASEURL = "https://api.pirateweather.net/forecast"
 
 func NewClient(apiKey string) *Client {
 	return &Client{

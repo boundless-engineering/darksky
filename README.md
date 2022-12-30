@@ -1,6 +1,14 @@
 Go Dark Sky API
 ================
 
+# Changelog
+
+- Switch to [pirate wether API](https://pirateweather.net/)
+- Go modules
+- Add UV and Wind Guest to data point
+
+# Orginal README
+
 [![Powered by Dark Sky](https://raw.githubusercontent.com/adlio/darksky/master/logos/poweredby-oneline.png)](https://darksky.net/poweredby/)
 
 [![GoDoc](https://godoc.org/github.com/adlio/darksky?status.svg)](http://godoc.org/github.com/adlio/darksky)
