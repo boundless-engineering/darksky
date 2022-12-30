@@ -1,4 +1,4 @@
-module boundless-engineering/darksky
+module github.com/boundless-engineering/darksky
 
 go 1.19
 
